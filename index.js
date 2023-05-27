@@ -10,7 +10,7 @@ var username = prompt("What is your name?");
 var userage = prompt("How old are you?");
     console.log(parseInt(userage));
 
-var bdayyes = confirm("Did you already celebrate your birthday this year?");
+var bdayyes = confirm("Did you already celebrate your birthday this year?\n Select 'Okay' for 'Yes' and 'Cancel' for 'No.'");
 
 var currentyear = new Date().getFullYear();
 
